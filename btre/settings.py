@@ -132,3 +132,8 @@ STATICFILES_DIRS = [
 # CSRF COOKIE SECURE 
 # https://stackoverflow.com/questions/29573163/django-admin-login-suddenly-demanding-csrf-token
 CSRF_COOKIE_SECURE=True
+
+
+# Media Folder Settings
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL  = '/media/'
