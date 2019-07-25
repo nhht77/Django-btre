@@ -128,3 +128,7 @@ STATIC_URL     = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'btre/static')
 ]
+
+# CSRF COOKIE SECURE 
+# https://stackoverflow.com/questions/29573163/django-admin-login-suddenly-demanding-csrf-token
+CSRF_COOKIE_SECURE=True
