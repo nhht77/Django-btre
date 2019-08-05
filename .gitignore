@@ -138,4 +138,7 @@ dmypy.json
 /static
 /media
 
+# App Requirements
+App Requirements.docx
+
 # End of https://www.gitignore.io/api/django
